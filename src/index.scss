@@ -1,0 +1,27 @@
+body {
+  display: inline-flex;
+  margin: 0 auto;
+ width: 1920px;
+  background: #f3f3f3 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1920px) {
+  html { background-color: #f3f3f3; }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 766px) {
+  html { background-color: #f3f3f3; }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+  html { background-color: #f3f3f3; }
+}
+
+@media only screen and (max-width: 320px) {
+  html { background-color: #f3f3f3; }
+}
+
+html { 
+   background-color: #f3f3f3;
+}

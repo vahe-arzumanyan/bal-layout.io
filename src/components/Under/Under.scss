@@ -1,0 +1,41 @@
+@import "../mixin";
+$white: #ffffff;
+
+.flexCar{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: absolute;
+  top: 1100px;
+    width: 1720px;
+    position: relative;
+    left: 80px;
+   
+   
+}
+
+.flexCar > div{
+    @include mini-car;
+}
+
+.under--border-google{
+    @include UnderBorderGoogle;
+}
+.under--google{
+@include UnderIconGoogle;
+}
+.under--checkmark{
+    @include UnderCheckmark;
+}
+.under--other-cardote{
+@include UnderCarDote;
+}
+.under--user-name{
+@include UnderCarUserName;
+}
+.under--img-car{
+@include UnderCarImg;
+}
+.under-ul{
+    @include UnderUl;
+}

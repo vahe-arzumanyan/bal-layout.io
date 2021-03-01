@@ -1,0 +1,44 @@
+@import "../mixin";
+$white: #ffffff;
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 1720px;
+  top: 709px;
+  position: absolute;
+  left: 100px;
+}
+
+.flex-container > div {
+  @include box-container;
+}
+
+.list--google {
+  @include listGoogle;
+}
+
+.list--checkmark {
+  @include listCheckmark;
+}
+
+.list--other-cardote {
+  @include cardote;
+}
+
+.car--user-name {
+  @include carUserName;
+}
+
+.car--img-container {
+  @include carImgcontainer;
+}
+
+.ul {
+  @include ul;
+}
+.ul {
+  @include absolute;
+  top: 350px;
+}

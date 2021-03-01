@@ -1,0 +1,31 @@
+@import "../mixin.scss";
+$white: #ffffff;
+
+
+.item--left-widows{
+    display: grid;
+    grid-template-columns:1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    position: absolute;
+    align-items: center;
+    justify-items:stretch;
+    top: 208px;
+    left: 0px;
+    width: 46px;
+    height: 299px;
+    background: $white 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 3px 3px 0px 0px;
+    @include opacity;
+}
+
+.advertisement{
+position: absolute;
+top: 208px;
+left: 100px;
+width: 1720px;
+height: 446px;
+background: 0% 0% no-repeat padding-box;
+background-color: rgb(148, 230, 183);
+@include opacity;
+}
